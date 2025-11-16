@@ -1,0 +1,73 @@
+body {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.editButton {
+  width: 50px;
+}
+
+.subtitle {
+  margin-bottom: 16px;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px
+}
+
+.card {
+  height: 320px;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.detailsSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.eventsContainer {
+  overflow-y: auto;
+  height: 80%;
+}
+
+.event:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.fieldInfo {
+  margin-bottom: 32px;
+}
+
+.fieldInfoLabel {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.formRow {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.formLabel {
+  margin-right: 4px;
+}
+
+.formInput {
+  flex-grow: 1;
+}
