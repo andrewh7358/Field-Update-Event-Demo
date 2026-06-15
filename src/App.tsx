@@ -1,4 +1,4 @@
-import React, { JSX, useEffect, useState } from 'react'
+import { type JSX, useState } from 'react'
 import { EditModal } from './EditModal'
 import { CreateEvent, FieldUpdateEvent } from './Events'
 import { FieldInfo } from './FieldInfo'

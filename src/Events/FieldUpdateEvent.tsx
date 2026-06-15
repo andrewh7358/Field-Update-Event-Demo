@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface FieldUpdateEventProps {
   label: string
   newValue: string | null

@@ -1,4 +1,4 @@
-import { Order } from './App'
+import type { Order } from './App'
 
 export const initialData: Order = {
   name: {

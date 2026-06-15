@@ -1,6 +1,6 @@
 import { Modal } from 'antd'
-import React, { ChangeEvent, KeyboardEvent, useEffect, useState } from 'react'
-import { Order } from './App'
+import { type ChangeEvent, type KeyboardEvent, useEffect, useState } from 'react'
+import type { Order } from './App'
 
 interface EditModalProps {
   showModal: boolean
