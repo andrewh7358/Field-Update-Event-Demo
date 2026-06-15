@@ -6,8 +6,8 @@ This uses a detail page for a mock order transaction. The page includes a Detail
 
 <img src='./demo.gif' alt='demo' height='400px' />
 
-## How to run
+## Live Demo
 
-In the project directory, run `npm install` then `npm run dev`.
+Visit the deployed app here:
 
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+https://field-update-event-demo.vercel.app/
